@@ -4,8 +4,10 @@ server:
 eureka:
   instance:
     preferIpAddress:true
+    instance-id:${spring.application.name}:${spring.application.instance_id:8060
   client:
     fetchRegistry:true
+    defaultZone:http://localhost:8761/eureka/eureka
 feign:
   hystrix:
     enabled:true
@@ -17,19 +19,7 @@ spring:
       password:sapientgaming
       database:admin-activities
       authentication-database:admin
----
-spring:
-  profiles:local
-  data:
-    mongodb:
       host:localhost
-eureka:
-  instance:
-    preferIpAddress:false
-    instance-id:${spring.application.name}:${spring.application.instance_id:8060
-  client:
-    serviceUrl:
-      defaultZone:http://localhost:8761/eureka/eureka
 ---
 spring:
   profiles:performance
