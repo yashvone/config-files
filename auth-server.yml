@@ -1,7 +1,3 @@
-
-
-
-
 #oauth_code_url=/oauth/authorize?client_id=guest&response_type=code&scope=read
 server:
   port:8061
