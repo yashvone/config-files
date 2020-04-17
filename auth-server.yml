@@ -38,6 +38,8 @@ spring:
   profiles: staging
   datasource:
     url: jdbc:postgresql://10.0.2.204:5432/postgres
+    username: postgres
+    password: secretPass
 
 eureka:
   client:
