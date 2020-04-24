@@ -19,8 +19,8 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
   datasource:
-    username: login
-    password: adinfinitumx
+    username: postgres
+    password: adInfinitumX
     driver-class-name: org.postgresql.Driver
 ---
 spring:
