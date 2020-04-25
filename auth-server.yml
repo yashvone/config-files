@@ -49,7 +49,7 @@ eureka:
     serviceUrl:
       defaultZone: http://10.0.2.140:8761/eureka/eureka
 
-ui_url: http://18.215.53.195/app
+ui_url: http://beta.gamifylearningcentre.com/app
 ---
 spring:
   profiles: production
@@ -61,4 +61,4 @@ eureka:
     serviceUrl:
       defaultZone: http://10.0.1.12:8761/eureka/eureka
 
-ui_url: http://18.210.136.97/app
+ui_url: http://app.gamifylearningcentre.com/test
