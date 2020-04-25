@@ -54,7 +54,7 @@ ui_url: http://18.215.53.195/app
 spring:
   profiles: production
   datasource:
-    url: jdbc:postgresql://10.0.1.63:5432/user_management
+    url: jdbc:postgresql://10.0.1.63:5432/postgres
 
 eureka:
   client:
